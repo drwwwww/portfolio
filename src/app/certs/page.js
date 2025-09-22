@@ -16,6 +16,29 @@ export default function Certs() {
             >
                 <div className="grid grid-cols-2 gap-4 mx-30 mb-4 mt-2">
                 
+                <div className="card card-sm bg-black/30 backdrop-blur-md border border-black/20 rounded-lg shadow-md p-1">
+                <div className="card-body">
+                    
+                    <h2 className="card-title text-2xl"><img width="50" height="50" src="/comp.svg"></img>CompTIA: IT Fundamentals Pro</h2>
+                    
+                </div>
+                </div>
+
+                <div className="card card-sm bg-black/30 backdrop-blur-md border border-black/20 rounded-lg shadow-md p-1">
+                <div className="card-body">
+                    
+                    <h2 className="card-title text-2xl"><img width="50" height="50" src="/net.svg"></img>CompTIA: Network Pro</h2>
+                    
+                </div>
+                </div>
+
+                <div className="card card-sm bg-black/30 backdrop-blur-md border border-black/20 rounded-lg shadow-md p-1">
+                <div className="card-body">
+                    
+                    <h2 className="card-title text-2xl"><img width="50" height="50" src="/sec.svg"></img>CompTIA: Security Pro</h2>
+                    
+                </div>
+                </div>
                 </div>
                 </motion.div>
                 </div>
