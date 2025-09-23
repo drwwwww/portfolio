@@ -14,7 +14,7 @@ export default function Intro() {
             <div className="flex flex-col ">
                 <motion.div
                 >
-                    <h1 className="text-4xl font-bold">Andrew Bernadel</h1>
+                    <h1 className="text-4xl font-bold max-sm:text-2xl">Andrew Bernadel</h1>
                     <h2 className="">Software Developer</h2>
                     <h2 className="">Atlanta, GA</h2>
                 </motion.div>
@@ -29,7 +29,7 @@ export default function Intro() {
         </div>
         <motion.div
             >
-                <div className="card card-lg bg-black/30 backdrop-blur-md border border-black/20 rounded-lg shadow-md mx-50 p-5">
+                <div className="card card-lg bg-black/30 backdrop-blur-md border border-black/20 rounded-lg shadow-md mx-50 p-5 max-sm:mx-5 max-sm:card-sm">
                     <h2 className="card-title">About</h2>
                     <p>I’m Andrew Bernadel, a computer science student passionate about software development and full-stack web apps. Proficient in Python and experienced with React, Next.js, Tailwind, Flask, SQL, and Supabase, I’m also exploring AI, automation, and machine learning while sharpening my skills in building scalable, user-friendly applications.</p>
                 </div>
