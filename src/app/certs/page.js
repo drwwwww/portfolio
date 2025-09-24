@@ -14,7 +14,7 @@ export default function Certs() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
             >
-                <div className="grid grid-cols-2 gap-4 mx-30 mb-4 mt-2">
+                <div className="grid grid-cols-2 gap-4 mx-30 mb-4 mt-2 max-sm:gap-1 max-sm:mx-5">
                 
                 <div className="card card-sm bg-black/30 backdrop-blur-md border border-black/20 rounded-lg shadow-md p-1">
                 <div className="card-body">
